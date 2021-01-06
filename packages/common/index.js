@@ -1,4 +1,5 @@
 module.exports = () => {
   console.log('Hello from common')
-  // what about you
+  console.log('Hello from common')
+  console.log('Hello from common')
 }
