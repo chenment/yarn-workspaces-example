@@ -4,8 +4,11 @@
     "packages/*"
   ],
   "scripts": {
+    "bootstrap": "yarn && lerna bootstrap",
+    "lernalist": "lerna ll",
+    "changed": "lerna changed",
     "test": "lerna run test --scope=@yarn-workspaces/common",
-    "new-version": "lerna version --scope=@yarn-workspaces/common -- conventional-commits --yes",
+    "new-version": "lerna version -- conventional-commits --yes",
     "diff": "lerna diff"
   },
   "name": "yarn-workspaces",
